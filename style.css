@@ -18,17 +18,19 @@ margin: 0%;
   text-align: justify;
     color: #44444f;
 }
+
 #paragraph-header{
     text-align-last: right;
-   color: #040229;  /*  #3f1010; */
+   color:  rgb(25, 5, 81);  /* deep blue:#040229  #3f1010; */
     font-size: 45px;
     text-shadow: 10px;
     font-weight: 700;
     font-family: cursive;
 }
+/* Header Section contact Button */
 .btn-contact{
-background-image: linear-gradient(to right, rgb(218, 42, 42), rgb(241, 241, 110));
-   /* // padding: 15px 15px; */
+background-image: linear-gradient(to right, rgb(25, 5, 81), rgb(241, 241, 110),rgb(25, 5, 81));
+   /* // padding: 15px 15px; red-rgb(218, 42, 42) green rgb(75, 156, 54)*/
     height: 60px;
     width: 150px;
  font-size: larger;
@@ -37,8 +39,7 @@ background-image: linear-gradient(to right, rgb(218, 42, 42), rgb(241, 241, 110)
     text-align: center;
     align-items: center;
     border-style: hidden;
-    box-shadow: 3px 2px #585858;
-    color: #040229;
-   
+    box-shadow: 4px 3px #585858 ;
+    color: #040229 ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
