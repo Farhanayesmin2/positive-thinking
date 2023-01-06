@@ -1,0 +1,17 @@
+#header-section {
+  background-image: url(./images/banner/banner2.png);
+  width: auto;
+  height: auto;
+  color: rgb(255, 254, 254);
+  font-weight: 700;
+  background-repeat: no-repeat;
+  padding-bottom: 50%;
+
+}
+/* Header Section paragraph start*/
+#paragraph {
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 4%;
+}
