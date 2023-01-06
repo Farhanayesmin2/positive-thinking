@@ -11,7 +11,19 @@
 /* Header Section paragraph start*/
 #paragraph {
     text-align: center;
-    padding-left: 30%;
-    padding-right: 30%;
-    padding-top: 4%;
+    padding-left: 50%;
+    padding-right: 10%;
+    padding-top: 20%;
+    text-align-last: right;
+  text-align: justify;
+    color: black;
+}
+#paragraph-header{
+    text-align-last: right;
+    color: #59473c;
+    font-size: 45px;
+    text-shadow: 10px;
+    font-weight: 700;
+    font-family: cursive;
+
 }
