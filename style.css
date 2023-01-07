@@ -214,12 +214,17 @@ Main Section Paragraph Started
     height: 12%;
 
 }
+
 /* Google part start */
 #google {
     font-size: 58px;
     text-align: center;
     margin-bottom: auto;
 }
+ .fa-magnifying-glass{
+    padding-left: 100px;
+ }
+
 .searching input {
     margin-top: 1px;
     width: 650px;
@@ -233,7 +238,8 @@ Main Section Paragraph Started
 .social {
     text-align: center;
 }
-#google-fill{
+
+#google-fill {
     margin-right: 10px;
     text-decoration: none;
     padding: 5px 5px;
@@ -241,6 +247,7 @@ Main Section Paragraph Started
     color: rgb(90, 87, 87);
 
 }
+
 .fa-facebook {
     padding: 4px 5px;
     height: 50px;
