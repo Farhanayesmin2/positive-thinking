@@ -173,7 +173,7 @@ padding-top: 5%;
             background-color: #040229;
             height: 400px;
             width: 100%;
-            color:rgb(241, 241, 110);
+            color:rgb(248, 248, 185);
         }
         /* Footer section future part */
         #future-part{
@@ -189,3 +189,18 @@ padding-top: 5%;
 padding-right: 15px;
 
         }
+             /* This is footer subscribe part */
+        
+        #subscribe-part{
+                    padding-left: 5%;
+                   
+                }
+                #email-subscribe{
+                    width: 200px;
+                    height: 50px;
+                    font-size: large;
+                }
+                .subscribe-btn{
+                    height: 12%;
+                   
+                }
