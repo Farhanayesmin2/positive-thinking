@@ -108,6 +108,7 @@ Main Section Paragraph Started
     text-align: center;
     font-weight: 700;
     color: #040229;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* This is the section image and details class */
@@ -135,11 +136,13 @@ Main Section Paragraph Started
     background: linear-gradient(to right, rgba(25, 5, 81, 0.716), rgba(241, 241, 110, 0.67)), url(/images/watch.png);
 
 }
-.positive-title{
+
+.positive-title {
     color: rgb(251, 251, 208);
-padding-top: 5%;
+    padding-top: 5%;
 
 }
+
 /* Call Now Button created */
 .call-btn {
     color: #040229;
@@ -159,48 +162,88 @@ padding-top: 5%;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
 }
+
 /* Link setup with call button */
-#btn-link{
+#btn-link {
     text-decoration: none;
 }
 
 /* Footer css start */
-        #footer-section{
-            display: flex;
-            align-items: center;
-            justify-items: center;
-            margin-top: 50px;
-            background-color: #040229;
-            height: 400px;
-            width: 100%;
-            color:rgb(248, 248, 185);
-        }
-        /* Footer section future part */
-        #future-part{
-            padding-top: 5%;
-            padding-left: 15%;
-        }
-        .social-items{
-            display: flex;
-        padding-left: 0%;
-            margin-left: 0%;
-        }
-        .social-items li{
-padding-right: 15px;
+#footer-section {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-top: 50px;
+    background-color: #040229;
+    height: 400px;
+    width: 100%;
+    color: rgb(248, 248, 185);
+}
 
-        }
-             /* This is footer subscribe part */
-        
-        #subscribe-part{
-                    padding-left: 5%;
-                   
-                }
-                #email-subscribe{
-                    width: 200px;
-                    height: 50px;
-                    font-size: large;
-                }
-                .subscribe-btn{
-                    height: 12%;
-                   
-                }
+/* Footer section future part */
+#future-part {
+    padding-top: 5%;
+    padding-left: 15%;
+}
+
+.social-items {
+    display: flex;
+    padding-left: 0%;
+    margin-left: 0%;
+}
+
+.social-items li {
+    padding-right: 15px;
+
+}
+
+/* This is footer subscribe part */
+
+#subscribe-part {
+    padding-left: 5%;
+
+}
+
+#email-subscribe {
+    width: 200px;
+    height: 50px;
+    font-size: large;
+}
+
+.subscribe-btn {
+    height: 12%;
+
+}
+/* Google part start */
+#google {
+    font-size: 58px;
+    text-align: center;
+    margin-bottom: auto;
+}
+.searching input {
+    margin-top: 1px;
+    width: 650px;
+    height: 45px;
+    border-radius: 20px;
+    border-color: rgba(3, 53, 233, 0.483);
+    box-shadow: 5px 5px gray;
+    outline-color: rgb(222, 222, 222);
+}
+
+.social {
+    text-align: center;
+}
+#google-fill{
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 5px 5px;
+    background-color: rgba(213, 221, 221, 0.272);
+    color: rgb(90, 87, 87);
+
+}
+.fa-facebook {
+    padding: 4px 5px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
