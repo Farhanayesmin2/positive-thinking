@@ -79,3 +79,18 @@ Main Section Paragraph Started
         color: #44444f;
 
 }
+/* Title of my success */
+.title{
+    font-size: 36px;
+    font-weight: bold;
+    font-family: cursive;
+color: #040229;
+}
+/* List item of success */
+.success-list li{
+list-style: none;
+}
+/* List item of icon */
+.fa-circle-check{
+    color: rgb(32, 125, 38);
+}
