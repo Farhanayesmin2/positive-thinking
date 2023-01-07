@@ -1,64 +1,81 @@
- body {
-     margin: 0;
-     font-family: 'Poppins', sans-serif;
- }
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
 
 #header-section {
   background-image: url(./images/banner/banner2.png);
-   width: 100%;
-  height: 500px; 
+  width: 100%;
+  height: 100%;
   font-weight: 700;
   background-repeat: no-repeat;
-background-size: contain;
-background-position-y: -100px;
-  padding-bottom: 15%;
-  
- 
+  background-size: contain;
+    background-position-y: -100px;   
+    padding-bottom: 10vh;
+   
 }
 /* Header Section paragraph start*/
 #paragraph {
-    text-align: center;
-    padding-left: 50%;
-    padding-right: 10%;
-    padding-top: 2%;
-    text-align-last: right;
+  text-align: center;
+  padding-left: 50%;
+  padding-right: 15%;
+  padding-top: 2%;
+  text-align-last: right;
   text-align: justify;
-    color: #44444f;
-}
-
-#paragraph-header{
-    text-align-last: right;
-   color:  rgb(25, 5, 81);  /* deep blue:#040229  #3f1010; */
-    font-size: 45px;
-    text-shadow: 10px;
-    font-weight: 700;
-    font-family: cursive;
+  color: #44444f;
+}/* Header Section paragraph finish*/
+/* Paragraph header */
+#paragraph-header {
+  text-align-last: right;
+  color: rgb(25, 5, 81); /* deep blue:#040229  #3f1010; */
+  font-size: 45px;
+  text-shadow: 10px;
+  font-weight: 700;
+  font-family: cursive;
 }
 /* Header Section contact Button */
-.btn-contact{
-background-image: linear-gradient(to right, rgb(25, 5, 81), rgb(241, 241, 110),rgb(25, 5, 81));
-   /* // padding: 15px 15px; red-rgb(218, 42, 42) green rgb(75, 156, 54)*/
-    height: 60px;
-    width: 150px;
- font-size: larger;
-   font-weight: bold;
-    padding-right: 5%;
-    text-align: center;
-    align-items: center;
-    border-style: hidden;
-    box-shadow: 4px 3px #585858 ;
-    color: #040229 ;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.btn-contact {
+  background-image: linear-gradient(
+    to right,
+    rgb(25, 5, 81),
+    rgb(241, 241, 110),
+    rgb(25, 5, 81)
+  );
+  /* // padding: 15px 15px; red-rgb(218, 42, 42) green rgb(75, 156, 54)*/
+  height: 60px;
+  width: 150px;
+  font-size: larger;
+  font-weight: bold;
+  padding-right: 5%;
+  text-align: center;
+  align-items: center;
+  border-style: hidden;
+  box-shadow: 4px 3px #585858;
+  color: #040229;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 /* 
 Main Section Paragraph Started
 */
-#main-section{
-    background-image: url(./images/person.png);
-    width: auto;
-        height: auto;
-        color: rgb(255, 254, 254);
-        font-weight: 700;
-        background-repeat: no-repeat;
-     
+#main-section {
+    padding-top: 0;
+  background-image: url(./images/person.png);
+   width: 100%;
+  height: 100%; 
+ background-size: contain;
+  font-weight: 700;
+  background-repeat: no-repeat;  
+    background-position-y: -30px; 
+    background-position-x: 120px; 
+    padding-bottom: auto;
+}
+#main-details{
+    text-align: center;
+        padding-left: 50%;
+        padding-right: 10%;
+        padding-top: 2%;
+        text-align-last: left;
+        text-align: justify;
+        color: #44444f;
+
 }
