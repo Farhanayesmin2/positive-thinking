@@ -159,3 +159,33 @@ padding-top: 5%;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
 }
+/* Link setup with call button */
+#btn-link{
+    text-decoration: none;
+}
+
+/* Footer css start */
+        #footer-section{
+            display: flex;
+            align-items: center;
+            justify-items: center;
+            margin-top: 50px;
+            background-color: #040229;
+            height: 400px;
+            width: 100%;
+            color:rgb(241, 241, 110);
+        }
+        /* Footer section future part */
+        #future-part{
+            padding-top: 5%;
+            padding-left: 15%;
+        }
+        .social-items{
+            display: flex;
+        padding-left: 0%;
+            margin-left: 0%;
+        }
+        .social-items li{
+padding-right: 15px;
+
+        }
