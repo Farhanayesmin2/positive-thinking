@@ -108,14 +108,33 @@ Main Section Paragraph Started
     font-weight: 700;
     color: #040229;
 }
+/* This is the section image and details class */
 .plan-section{
     color: #040229;
 display: flex;
 padding-left: 15%;
 padding-right: 15%;
 }
+/* This is the section image and details class */
 .all-plan{
     text-align: center;
 padding-right: 3%;
 padding-left: 4%;
+}
+
+/* Keep positive section start */
+#positive-section{
+    /* background-image: url(/images/watch.png); */
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 300px;
+    border-radius: 15px;
+        background: linear-gradient(to right, rgba(25, 5, 81, 0.716), rgba(241, 241, 110, 0.67)), url(/images/watch.png);
+       
+/* 
+     background-image: linear-gradient(to right,
+                rgb(25, 5, 81),
+                rgb(241, 241, 110),
+                rgb(25, 5, 81));;  */
+            
 }
