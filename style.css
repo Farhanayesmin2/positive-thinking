@@ -130,11 +130,24 @@ padding-left: 4%;
     height: 300px;
     border-radius: 15px;
         background: linear-gradient(to right, rgba(25, 5, 81, 0.716), rgba(241, 241, 110, 0.67)), url(/images/watch.png);
-       
-/* 
-     background-image: linear-gradient(to right,
-                rgb(25, 5, 81),
-                rgb(241, 241, 110),
-                rgb(25, 5, 81));;  */
             
+}
+.call-btn{
+    color: #040229;
+    border-style: none;
+    height: 30px;
+    width: 200px;
+    background-image: linear-gradient(to right,
+                #040229,
+                rgb(247, 247, 123),
+        #040229);
+padding-top: 1%;
+padding-bottom: 4%;
+        border-radius: 11px;
+        box-shadow: 1px 1px rgb(241, 241, 110);
+        font-weight: 500;
+        font-size: 22px;
+        margin-top: 5%;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
 }
