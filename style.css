@@ -102,52 +102,60 @@ Main Section Paragraph Started
 .fa-circle-check {
     color: rgb(32, 125, 38);
 }
+
 /* My plan section start */
-#my-plans{
+#my-plans {
     text-align: center;
     font-weight: 700;
     color: #040229;
 }
+
 /* This is the section image and details class */
-.plan-section{
+.plan-section {
     color: #040229;
-display: flex;
-padding-left: 15%;
-padding-right: 15%;
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15%;
 }
+
 /* This is the section image and details class */
-.all-plan{
+.all-plan {
     text-align: center;
-padding-right: 3%;
-padding-left: 4%;
+    padding-right: 3%;
+    padding-left: 4%;
 }
 
 /* Keep positive section start */
-#positive-section{
-    /* background-image: url(/images/watch.png); */
+#positive-section {
+    padding-left: 5%;
     margin-left: 15%;
     margin-right: 15%;
     height: 300px;
     border-radius: 15px;
-        background: linear-gradient(to right, rgba(25, 5, 81, 0.716), rgba(241, 241, 110, 0.67)), url(/images/watch.png);
-            
+    background: linear-gradient(to right, rgba(25, 5, 81, 0.716), rgba(241, 241, 110, 0.67)), url(/images/watch.png);
+
 }
-.call-btn{
+.positive-title{
+    color: rgb(251, 251, 208);
+padding-top: 5%;
+
+}
+/* Call Now Button created */
+.call-btn {
     color: #040229;
     border-style: none;
     height: 30px;
     width: 200px;
     background-image: linear-gradient(to right,
-                #040229,
-                rgb(247, 247, 123),
-        #040229);
-padding-top: 1%;
-padding-bottom: 4%;
-        border-radius: 11px;
-        box-shadow: 1px 1px rgb(241, 241, 110);
-        font-weight: 500;
-        font-size: 22px;
-        margin-top: 5%;
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            #040229,
+            rgb(247, 247, 123),
+            #040229);
+    padding-top: 1%;
+    padding-bottom: 4%;
+    border-radius: 11px;
+    box-shadow: 1px 1px rgb(241, 241, 110);
+    font-weight: 500;
+    font-size: 22px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
 }
